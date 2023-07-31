@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Bulletin",
+    "slug": "Bulletin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesNonExemptEncryption": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jpstone.Bulletin"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "bulletin",
+    "extra": {
+      "eas": {
+        "projectId": "1c15cea9-5326-464e-93c9-8910ca7b5182"
+      }
+    }
+  }
+}
