@@ -4,7 +4,7 @@
     "slug": "Bulletin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appicon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -34,5 +34,9 @@
         "projectId": "1c15cea9-5326-464e-93c9-8910ca7b5182"
       }
     }
+  },
+  "androidStatusBar": {
+    "backgroundColor": "#8F1B1E",
+    "translucent": false
   }
 }
